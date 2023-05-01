@@ -12,3 +12,14 @@ Cargo.lock
 
 # MSVC Windows builds of rustc generate these, which store debugging information
 *.pdb
+
+# IDE files and folders
+/.idea
+*.iml
+*.env
+
+# docker environment files
+/docker/*.env
+
+# external project files
+*.txt
